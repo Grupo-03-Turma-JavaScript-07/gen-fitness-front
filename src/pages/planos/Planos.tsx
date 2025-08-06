@@ -2,7 +2,9 @@
 function Planos() {
   return (
     <>
-      
+    <div>
+      Teste
+    </div>
     </>
   )
 }
