@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@layer utilities {
+  .card-effect {
+    @apply relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]
+  }
+
+  .flipcard-front {
+    @apply absolute inset-0 h-full w-full rounded-xl [backface-visibility:hidden] bg-white font-bold text-2xl cursor-pointer text-black flex items-center justify-center
+  }
+
+  .flipcard-back {
+    @apply absolute inset-0 h-full w-full rounded-xl bg-slate-400 text-blue-700 p-4 cursor-pointer flex items-center justify-center text-center  [transform:rotateY(180deg)] [backface-visibility:hidden]
+  }
+}
