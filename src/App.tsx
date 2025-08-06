@@ -12,7 +12,7 @@ function App() {
   
 
   return (
-    <>
+    <div className='bg-black'>
       <BrowserRouter>
         <Navbar />
         <div className='min-h-[80vh]'>
@@ -26,7 +26,7 @@ function App() {
         </div>
         <Footer />
       </BrowserRouter>
-    </>
+    </div>
   )
 }
 

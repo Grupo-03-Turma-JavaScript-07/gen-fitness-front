@@ -3,11 +3,11 @@ function Home() {
     return (
         <>
             <section className="w-full min-h-screen flex flex-col justify-center items-center text-white bg-[url('https://ik.imagekit.io/illaoi/bg%20melhorado.png?updatedAt=1754494173823')] bg-cover bg-center">
-              <h1 className="text-4xl md:text-5xl font-bold drop-shadow-[0_0_8px_rgba(0,0,0,1)]">Aumente seus resultados com o Gen Fitness!</h1>
-                <p className="text-lg text-white drop-shadow-[0_0_8px_rgba(0,0,0,1)]">
+              <h1 className="text-4xl md:text-5xl font-bold drop-shadow-[0_0_8px_rgba(0,0,0,1)] py-2">Aumente seus resultados com o Gen Fitness!</h1>
+                <p className="text-lg text-white drop-shadow-[0_0_8px_rgba(0,0,0,1)] py-2">
                   Uma plataforma para personal trainers, academias e profissionais fitness que querem escalar seus atendimentos com mais controle e praticidade.
                 </p>
-              <button className="bg-blue-500 text-white px-6 py-3 rounded-2xl text-lg hover:bg-blue-700 transition">
+              <button className="bg-blue-500 text-white px-6 py-3 mt-2 rounded-2xl text-lg hover:bg-blue-700 cursor-pointer transition">
                 Comece a usar gratuitamente!
               </button>
             </section>
@@ -40,7 +40,7 @@ function Home() {
             </section>
 
             <section className="space-y-4">
-              <h2 className="text-3xl text-blue-500 font-bold text-center">Para quem é o Gen Fitness?</h2>
+              <h2 className="text-3xl text-white font-bold text-center">Para quem é o Gen Fitness?</h2>
               <ul className="pl-8 text-center text-sky-300 space-y-2">
                 <li>- Personal Trainers Independentes que querem escalar sem perder qualidade;</li>
                 <li>- Academias que buscam um sistema leve e flexível;</li>
@@ -49,9 +49,10 @@ function Home() {
             </section>
 
             <section>
-              <h2 className="text-3xl text-blue-500 font-bold text-center mb-6">Em breve mais funcionalidades para sua rotina!</h2>
+              <h2 className="text-3xl text-white font-bold text-center mb-6">Em breve mais funcionalidades para sua rotina!</h2>
               <div className="overflow-x-auto">
-                <table className="w-full max-w-[700px] mx-auto text-left border border-gray-200">
+                <div className="border border-white rounded-2xl overflow-hidden w-fit mx-auto">
+                  <table className="w-full max-w-[700px] mx-auto text-left">
                   <thead>
                     <tr className="bg-blue-600 text-white">
                       <th colSpan={2} className="text-2xl text-center px-4 py-2">Vem aí...</th>
@@ -70,6 +71,7 @@ function Home() {
                     ))}
                   </tbody>
                 </table>
+                </div>
               </div>
             </section>
 
@@ -78,7 +80,7 @@ function Home() {
               <h2 className="text-2xl font-bold mb-2">Quer transformar seu atendimento?</h2>
               <p className="mb-1">Experimente gratuitamente o Gen Fitness.</p>
               <p className="text-[10px]">*30 dias grátis</p>
-              <button className="bg-blue-500 text-white px-6 py-3 rounded-2xl text-lg hover:bg-blue-700 transition">
+              <button className="bg-blue-500 text-white px-6 py-3 mt-3 rounded-2xl text-lg hover:bg-blue-700 cursor-pointer transition">
                 Quero experimentar grátis
               </button>
             </section>

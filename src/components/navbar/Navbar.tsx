@@ -3,20 +3,18 @@ import { Link } from "react-router-dom"
 function Navbar() {
   return (
     <>
-      <div className="w-full flex justify-center py-6 bg-gradient-to-b from-black to-blue-500 text-white">
-        
+      <div className="w-full flex justify-center bg-black text-white">
         <div className="container flex justify-between text-lg">
-        <Link to="/" className="text-2xl front-bold">Gen Fitness</Link>
-
-        <div className="flex gap-4">
-        <Link to="/home" className="houver: underline">Home</Link>
-        <Link to="/sobre" className="houver: underline">Sobre</Link>
-        <Link to="/planos" className="houver: underline">Planos</Link>
-        <Link to="/contato" className="houver: underline">Contato</Link>
+          <Link to="/" className="text-3xl text-blue-600 front-bold">
+            <img src="https://ik.imagekit.io/gengrupo03/gen-fitness/logo2.png" className="w-25" alt="Logo da GenFitness" />
+          </Link>
+          <div className="flex items-center">
+            <Link to="/home" className="nav-button">Home</Link>
+            <Link to="/sobre" className="nav-button">Sobre</Link>
+            <Link to="/planos" className="nav-button">Planos</Link>
+            <Link to="/contato" className="nav-button">Contato</Link>
+          </div>
         </div>
-
-        </div>
-        
       </div>
     </>
   );

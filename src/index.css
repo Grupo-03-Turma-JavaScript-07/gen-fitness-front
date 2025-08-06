@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+@layer utilities {
+  .nav-button {
+    @apply text-2xl font-semibold border-b-6 border-transparent hover:border-blue-500 px-4 py-8
+  }
+}

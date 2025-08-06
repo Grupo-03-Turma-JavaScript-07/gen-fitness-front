@@ -2,7 +2,7 @@ export const devs = [
   {
     id: 1,
     nome: "Alexandra Lima",
-    cargo: "Desenvolvedora FullStack JS Jr",
+    cargo: "Desenvolvedora FullStack",
     pic: "https://github.com/AlexandraLimaG.png",
     linkedin: "https://www.linkedin.com/in/alexandra-de-lima/",
     github: "https://github.com/AlexandraLimaG",
@@ -10,7 +10,7 @@ export const devs = [
   {
     id: 2,
     nome: "Flavio Teixeira",
-    cargo: "Desenvolvedor FullStack JS Jr",
+    cargo: "Desenvolvedor FullStack",
     pic: "https://github.com/Flavio-202.png",
     linkedin: "https://www.linkedin.com/in/flavio-aguilar-477484237?",
     github: "https://github.com/Flavio-202",
@@ -18,15 +18,15 @@ export const devs = [
   {
     id: 3,
     nome: "Juliana Vieira",
-    cargo: "Desenvolvedora FullStack JS Jr",
+    cargo: "Desenvolvedora FullStack",
     pic: "https://github.com/julianavsleal.png",
-    linkedin: "https://www.linkedin.com",
+    linkedin: "https://www.linkedin.com/in/julianav-leal/",
     github: "https://github.com/julianavsleal",
   },
   {
     id: 4,
     nome: "Larissa Teixeira",
-    cargo: "Desenvolvedora FullStack JS Jr",
+    cargo: "Desenvolvedora FullStack",
     pic: "https://github.com/lllarii.png",
     linkedin: "https://www.linkedin.com/in/llarissateixeira/",
     github: "https://github.com/lllarii",
@@ -34,7 +34,7 @@ export const devs = [
   {
     id: 5,
     nome: "Luana Silva",
-    cargo: "Desenvolvedora FullStack JS Jr",
+    cargo: "Desenvolvedora FullStack",
     pic: "https://github.com/LuanaTechVet.png",
     linkedin: "https://www.linkedin.com/in/luanasilvadev/",
     github: "https://github.com/LuanaTechVet",
@@ -42,7 +42,7 @@ export const devs = [
   {
     id: 6,
     nome: "Leticia Fontes",
-    cargo: "Desenvolvedora FullStack JS Jr",
+    cargo: "Desenvolvedora FullStack",
     pic: "https://github.com/leticialafontes.png",
     linkedin: "https://www.linkedin.com/in/leticia-afontes/",
     github: "https://github.com/leticialafontes",
@@ -50,9 +50,9 @@ export const devs = [
   {
     id: 7,
     nome: "Samuel de Souza",
-    cargo: "Desenvolvedora FullStack JS Jr",
+    cargo: "Desenvolvedora FullStack",
     pic: "https://github.com/SamuelSRJ.png",
-    linkedin: "https://github.com/julianavsleal/",
-    github: "https://github.com",
+    linkedin: "https://www.linkedin.com/in/samuelssrj/",
+    github: "https://github.com/SamuelSRJ",
   },
 ];
