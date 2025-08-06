@@ -6,14 +6,16 @@ function msg(){
 function Contato() {
   return (
     <>
-      <div className="flex justify-center">
+      <div className=" bg-black flex  mx-auto justify-center">
 
-        <div className="container flex flex-col mx-auto items-center">
+        <div className="container flex flex-col items-center">
+
+          <div className="bg-blue-500 m-10">
 
           <h2 className="text-4xl text-center my-8">
             Fale conosco</h2>
 
-          <form className="flex flex-col w-1/2 gap-4" onSubmit={msg}>
+          <form className="flex flex-col bg-white w-1/2 gap-4" onSubmit={msg}>
                 <div className="flex flex-col gap-2">
                     <label htmlFor="titulo">Título da Postagem</label>
                     <input
@@ -44,6 +46,7 @@ function Contato() {
                 >Enviar
                 </button>
             </form>
+            </div>
 
         </div>
 
