@@ -38,7 +38,6 @@ function Sobre() {
       <div className="mt-auto flex justify-center w-full my-4">
         <div className="container w-[80vw] flex flex-col mt-4">
           <div className="flex flex-wrap flex-row justify-center gap-4">
-
             {equipe.map((sobre) => (
               <CardSobre key={sobre.id} devs={sobre} />
             ))}
