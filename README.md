@@ -2,7 +2,7 @@
 # Gen Fitness
 
   
-Aplicação frontend em React + React Router + Tailwind CSS, com landing page moderna para software otimizar a organização de academias e personal trainers, tornando a rotina de gestão e acompanhamento de alunos mais prática e acessível.
+Landing page moderna para O software Gen Fitness, um modo visual de otimizar a organização de academias e personal trainers. A aplciação torna a rotina de gestão e acompanhamento de alunos mais prática e acessível.
 
 <p align="center">
 
