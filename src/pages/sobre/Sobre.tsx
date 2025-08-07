@@ -28,7 +28,7 @@ function Sobre() {
         <div className="font-bold text-5xl drop-shadow-[0_0_8px_rgba(0,0,0,1)]">Valores</div>
          <div className=" col-span-2"></div>
         <div className=" text-center">
-            <ul className="list-inside space-y-4">
+            <ul className="list-inside space-4">
                 <li>
         <span className="text-blue-400 font-bold">Colaboração e aprendizado:</span> Nascemos como um projeto e seguimos evoluindo com base no aprendizado constante.
     </li>
