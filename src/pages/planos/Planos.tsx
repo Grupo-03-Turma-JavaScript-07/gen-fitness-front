@@ -2,10 +2,10 @@
 function Planos() {
   return (
     <>
-      <div className="bg-gradient-to-b from-sky-200 to-sky-600 py-10 min-h-screen">
+      <div className="bg-radial-[at_50%_-20%] from-sky-500 to-90% to-black py-10 min-h-screen">
         <div className="container mx-auto flex flex-col items-center text-center px-4">
-          <h1 className="text-3xl font-bold text-black mb-2">Compare os planos da GenFitness</h1>
-          <p className="text-black text-lg mb-8">Planos acessíveis para você treinar em nossas academias de alto padrão</p>
+          <h1 className="text-3xl font-bold text-white mb-2">Compare os planos da GenFitness</h1>
+          <p className="text-white text-lg mb-8">Planos acessíveis para você treinar em nossas academias de alto padrão</p>
           {/*Card de produtos: plano smart, plano black...*/}
           <div className="flex gap-4" >
             <div className="bg-white rounded-2xl shadow-lg p-6 w-full max-w-sm">
@@ -29,8 +29,8 @@ function Planos() {
               </button>
           </div>
           </div>
-          <p className="text-black text-sm mt-6 max-w-md">Os preços, taxas e condições promocionais podem variar de acordo com a unidade.</p>
-          <div className="mt-8 text-black">
+          <p className="text-white text-sm mt-6 max-w-md">Os preços, taxas e condições promocionais podem variar de acordo com a unidade.</p>
+          <div className="mt-8 text-white">
             <h2 className="text-xl font-semibold">Conheça nossos produtos e serviços adicionais para você!</h2>
           </div>
         </div>
