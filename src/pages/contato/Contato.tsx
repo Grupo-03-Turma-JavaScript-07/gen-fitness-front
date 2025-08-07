@@ -1,4 +1,4 @@
-import { BuildingOfficeIcon, Chats, ChatsCircleIcon, ChatsIcon } from "@phosphor-icons/react"
+import { BuildingOfficeIcon, ChatsCircleIcon } from "@phosphor-icons/react"
 
 function msg() {
   alert("Agradecemos a sua mensagem!")
