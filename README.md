@@ -51,6 +51,7 @@ npm run dev # ou yarn dev
 - Submeta uma **Pull Request** com título e descrição objetivos.
 - Após revisão, sua contribuição pode ser integrada ao projeto.
 
+ `````  
 ---
 
 ## 📫 Contato
