@@ -50,3 +50,10 @@ npm run dev # ou yarn dev
 - Use mensagens de commit claras.
 - Submeta uma **Pull Request** com título e descrição objetivos.
 - Após revisão, sua contribuição pode ser integrada ao projeto.
+
+---
+
+## 📫 Contato
+
+- 🌐 [GitHub da equipe]([https://github.com/lllarii](https://github.com/Grupo-03-Turma-JavaScript-07/gen-fitness-front))
+
