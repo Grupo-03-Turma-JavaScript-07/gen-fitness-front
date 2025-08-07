@@ -56,6 +56,5 @@ npm run dev # ou yarn dev
 
 ## 📫 Contato
 
-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="24" alt="GitHub icon" />
- [GitHub da equipe](https://github.com/lllarii](https://github.com/Grupo-03-Turma-JavaScript-07/gen-fitness-front)
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="24" alt="GitHub icon" /> [GitHub da equipe](https://github.com/lllarii](https://github.com/Grupo-03-Turma-JavaScript-07/gen-fitness-front)
 
