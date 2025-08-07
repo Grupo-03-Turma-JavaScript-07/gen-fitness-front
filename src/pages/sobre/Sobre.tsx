@@ -6,7 +6,7 @@ function Sobre() {
 
   return (
     <>
-      <section className="w-full min-h-screen flex justify-center items-center bg-[url('https://midias.siteware.com.br/wp-content/uploads/2021/02/25044214/exemplo-missao-de-empresas-1.jpg')] bg-fixed bg-cover bg-center">
+      <section className="w-full min-h-screen flex justify-center items-center bg-[url('https://ik.imagekit.io/gengrupo03/gen-fitness/gen_sobre_m.png')] bg-fixed bg-cover bg-center">
       
         <div className="bg-black bg-opacity-60 w-full md:w-[80vw] p-8 md:p-12 text-white rounded-lg shadow-lg">
           <div className="mb-8">
