@@ -7,8 +7,8 @@ function msg() {
 function Contato() {
   return (
     <>
-      <main className=" bg-black">
-        <section className="flex items-center justify-center gap-10 mx-auto bg-conic-120 from-blue-700 via-blue-400 to-black p-10 ">
+      <div className=" bg-black">
+        <section className="flex items-center justify-center gap-20 mx-auto bg-conic-120 from-blue-700 via-blue-400 to-black p-20 ">
           <div className="w-full">
             <form className="flex flex-col p-5 rounded-2xl shadow-lg bg-white/5 w-full " onSubmit={msg}>
               <h2 className="text-2xl text-white font-bold text-shadow-sm text-center">
@@ -23,14 +23,6 @@ function Contato() {
                     placeholder="Digite seu nome"
                     name="nome"
                     required
-                    className="border-1 border-white rounded-3xl placeholder:text-[#ffffff80] p-1" />
-                </div>
-                <div className="flex flex-col-2 gap-2">
-                  <label htmlFor="telefone" className="text-white font-bold text-shadow-sm">Telefone:</label>
-                  <input
-                    type="text"
-                    placeholder="Digite seu telefone"
-                    name="telefone"
                     className="border-1 border-white rounded-3xl placeholder:text-[#ffffff80] p-1" />
                 </div>
               </div>
@@ -63,35 +55,41 @@ function Contato() {
                 </div>
                 <button
                   type='submit'
-                  className='border-0 rounded-3xl disabled:bg-slate-200 bg-blue-400 hover:bg-blue-700 text-white font-bold w-1/2 mx-auto py-2 flex justify-center'
+                  className='border-0 rounded-3xl disabled:bg-slate-200 bg-blue-400 hover:bg-blue-700 text-white font-bold w-64 mx-auto py-2 flex justify-center'
                 >Enviar
                 </button>
               </div>
             </form>
           </div>
           
-        </section>
-        <section className="grid grid-cols-3 container mx-auto items-center justify-center gap-10 p-5">
-          <div className="bg-white rounded-2xl w-full h-full shadow-lg shadow-white/25 p-6">
+          <section className="flex flex-col items-center justify-center gap-5">
+
+        <div className="bg-white rounded-2xl w-full h-full shadow-lg shadow-white/25 p-6">
             <div className="flex gap-4 mb-2 border-b border-blue-500 pb-2">
               <ChatsCircleIcon size={32} color="#2b7fff" weight="fill" />
               <h2 className="text-2xl font-extrabold text-blue-500 ">CONTATOS</h2>
+
             </div>
             <h3 className="font-bold pt-1">TELEFONE:
             </h3>
+
             <p mb-4 text-sm text-black>+55 011 1234-5678</p>
             <hr className="w-1/4 h-0.5 mx-auto mt-3 mb-2 bg-black/30 border-0" />
             <h3 className="font-bold">E-MAIL:
             </h3>
+
             <p mb-4 text-sm text-black>grupogeneration03@gmail.com</p>
           </div>
+
           <div className="bg-white rounded-2xl shadow-lg shadow-white/25 p-6">
             <div className="flex gap-4 mb-2 border-b border-blue-500 pb-2">
               <BuildingOfficeIcon size={32} color="#2b7fff" weight="fill" />
+
               <h2 className="text-2xl font-extrabold text-blue-500 ">ONDE ESTAMOS</h2>
             </div>
             <h3 className="font-bold pt-1">ENDEREÇO:
             </h3>
+
             <p mb-4 text-sm text-black>Rua Teodoro Sampaio, 1629
               São Paulo/SP</p>
             <p mb-4 text-sm text-black>
@@ -99,18 +97,27 @@ function Contato() {
             <hr className="w-1/4 h-0.5 mx-auto mt-3 mb-2 bg-black/30 border-0" />
             <h3 className="font-bold">FUNCIONAMENTO:
             </h3>
+
             <p mb-4 text-sm text-black>Seg a Sex: 08h às 17h</p>
             <p>Online: 24h</p>
           </div>
-          <div className="overflow-hidden rounded-2xl shadow-lg shadow-white/25 h-full">
+
+        
+          </section>
+
+          <section className="">
+          <div className="overflow-hidden rounded-2xl shadow-lg shadow-white/25 h-75 ">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1791706451368!2d-46.6847684!3d-23.56200769999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce579c21e26427%3A0x9aa89a73daf0d500!2sR.%20Teodoro%20Sampaio%2C%201629%20-%20Pinheiros%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005415-030!5e0!3m2!1spt-BR!2sbr!4v1754530666421!5m2!1spt-BR!2sbr" 
               className="w-full h-full" 
               allowFullScreen={true} 
               loading="lazy" 
               referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
-        </section>
-      </main>
+          </section>
+
+
+          </section>
+      </div>
     </>
   )
 }
