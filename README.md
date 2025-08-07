@@ -26,7 +26,7 @@ Landing page moderna para o software Gen Fitness, um modo visual de otimizar a o
 - Navegação com **fluxo visual bem definido**. Os elementos-chave são destacados e a experiência do usuário é intuitiva.
 
 ---
-## 🚀 Início rápido
+## Início rápido
 
 ### Instalação
 
@@ -54,7 +54,7 @@ npm run dev # ou yarn dev
  `````  
 ---
 
-## 📫 Contato
+## Conheça outros projetos
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="24" alt="GitHub icon" /> [GitHub da equipe](https://github.com/Grupo-03-Turma-JavaScript-07/gen-fitness-front)
 
