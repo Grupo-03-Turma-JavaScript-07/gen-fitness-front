@@ -1,69 +1,60 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Gen Fitness
 
-Currently, two official plugins are available:
+  
+Landing page moderna para o software Gen Fitness, um modo visual de otimizar a organização de academias e personal trainers. A aplicação torna a rotina de gestão e acompanhamento de alunos mais prática e acessível.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p align="center">
 
-## Expanding the ESLint configuration
+| Linguagens                                                                 | Tecnologias                                                                 | Deploy                                                  |
+|:---------------------------------------------------------------------------:|:---------------------------------------------------------------------------:|:--------------------------------------------------------:|
+| ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) <br> ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) <br> ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) | ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) <br> ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) <br> ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) | ![Deploy](https://img.shields.io/badge/Deploy-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white) |
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+</p>
+ 
+ ---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+###  Codificação
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- Componentes desacoplados e reutilizáveis — facilitam manutenção e escalabilidade.  
+- Estilização utilitária consistente, com Tailwind CSS, para acelerar o ciclo de desenvolvimento e garantir coerência visual.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+###  Identidade Visual & UX
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- Visual **limpo e contemporâneo**, com espaçamentos e tipografia harmônicos.  
+- Design **totalmente responsivo**, adaptando-se com fluidez a desktops, tablets e smartphones.  
+- Navegação com **fluxo visual bem definido**. Os elementos-chave são destacados e a experiência do usuário é intuitiva.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
+## Início rápido
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Instalação
+
+```bash
+
+git clone https://github.com/Grupo-03-Turma-JavaScript-07/gen-fitness-front.git
+
+cd gen-fitness-front
+
+npm install # ou yarn install
+
+npm run dev # ou yarn dev
+
+ 
+### ​ Como contribuir
+
+#### Tem uma nova ideia ou sugestão?
+
+- Abra uma **issue** para reportar bugs ou sugerir melhorias.
+- Crie um **fork**, depois uma branch `feature/...` ou `bugfix/...`.
+- Use mensagens de commit claras.
+- Submeta uma **Pull Request** com título e descrição objetivos.
+- Após revisão, sua contribuição pode ser integrada ao projeto.
+
+ `````  
+---
+
+## Conheça outros projetos
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="24" alt="GitHub icon" /> [GitHub da equipe](https://github.com/Grupo-03-Turma-JavaScript-07)
+
