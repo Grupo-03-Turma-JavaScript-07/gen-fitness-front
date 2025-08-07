@@ -2,7 +2,7 @@
 function Home() {
     return (
         <>
-            <section className="w-full min-h-screen flex flex-col justify-center items-center text-white bg-[url('https://ik.imagekit.io/illaoi/bg%20melhorado.png?updatedAt=1754494173823')] bg-cover bg-center">
+            <section className="w-full min-h-screen flex flex-col justify-center items-center text-white bg-[url('https://ik.imagekit.io/illaoi/bg%20melhorado.png?updatedAt=1754494173823')] bg-cover bg-center bg-fixed">
               <h1 className="text-4xl md:text-5xl font-bold drop-shadow-[0_0_8px_rgba(0,0,0,1)] py-2">Aumente seus resultados com o Gen Fitness!</h1>
                 <p className="text-lg text-white drop-shadow-[0_0_8px_rgba(0,0,0,1)] py-2">
                   Uma plataforma para personal trainers, academias e profissionais fitness que querem escalar seus atendimentos com mais controle e praticidade.

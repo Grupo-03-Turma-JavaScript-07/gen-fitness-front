@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 import type Devs from "../../../models/Devs";
 import { GithubLogoIcon, LinkedinLogo, LinkedinLogoIcon } from "@phosphor-icons/react";
 
@@ -9,7 +9,7 @@ interface SobreProps {
 function CardSobre({ devs }: SobreProps) {
   return (
     <>
-      <div className="border-3 border-black flex flex-col rounded-2xl overflow-hidden justify-between">
+      <div className="border-3 border-black flex flex-col rounded-2xl overflow-hidden justify-between w-3xs h-sm">
         <header className="py-2 px-2 bg-white">
           <img src={devs.pic} className="rounded-2xl" />
         </header>
