@@ -21,9 +21,9 @@ Landing page moderna para o software Gen Fitness, um modo visual de otimizar a o
 
 ###  Identidade Visual & UX
 
-- Visual **limpo e contemporâneo**, com espaçamentos e tipografia harmonizados graças ao Tailwind.  
+- Visual **limpo e contemporâneo**, com espaçamentos e tipografia harmônicos.  
 - Design **totalmente responsivo**, adaptando-se com fluidez a desktops, tablets e smartphones.  
-- Navegação com **fluxo visual bem definido** — os elementos-chave são destacados e a experiência do usuário é intuitiva.
+- Navegação com **fluxo visual bem definido**. Os elementos-chave são destacados e a experiência do usuário é intuitiva.
 
 ---
 ## 🚀 Início rápido
@@ -50,8 +50,3 @@ npm run dev # ou yarn dev
 - Use mensagens de commit claras.
 - Submeta uma **Pull Request** com título e descrição objetivos.
 - Após revisão, sua contribuição pode ser integrada ao projeto.
-
-
-###  License
-
-Este projeto está licenciado sob a **MIT License**. Você está livre para usar, modificar e distribuir o software, desde que o aviso de **copyright** e os termos desta licença sejam mantidos em todas as cópias ou partes significativas do projeto. Para mais detalhes, consulte o arquivo [`LICENSE`](LICENSE).
